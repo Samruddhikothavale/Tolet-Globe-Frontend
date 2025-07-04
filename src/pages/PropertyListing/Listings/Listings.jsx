@@ -678,7 +678,7 @@ const Listing = () => {
           if (showCity === true) setShowCity(false);
           if (isOpen === true) SetIsOpen(false);
         }}
-        className="property h-[100vh] pb-3 lg:px-12 w-full overflow-y-auto"
+        className="property pb-3 lg:px-12 w-full overflow-y-auto"
         id="property"
       >
         <div className="flex flex-col gap-6 pt-6 sticky top-0 z-20 bg-black md:pb-4">
