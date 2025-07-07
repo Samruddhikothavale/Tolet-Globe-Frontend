@@ -189,7 +189,7 @@ const handleAddReview = async (e) => {
             navigate("/login");
           }
         }}
-        className="w-full sm:w-auto text-black font-semibold text-sm sm:text-base lg:text-xl py-2 px-6"
+        className="w-full sm:w-auto text-white font-semibold text-sm sm:text-base lg:text-xl py-2 px-6"
       >
         {showReviewForm ? "Cancel" : existingReviewId ? "Update Your Review" : "Write A Review"}
       </button>
